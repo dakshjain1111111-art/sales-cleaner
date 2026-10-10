@@ -1,6 +1,6 @@
 # Sales Cleaner
 
-![tests](https://github.com/YOUR-USERNAME/sales-cleaner/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/dakshjain1111111-art/sales-cleaner/actions/workflows/tests.yml/badge.svg)
 
 A small command-line tool that automates a repetitive data-processing job: it takes messy weekly
 sales exports (CSV or Excel), cleans and validates every row, converts all amounts to one currency
