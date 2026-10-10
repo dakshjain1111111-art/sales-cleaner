@@ -1,0 +1,13 @@
+Order ID,Date,Store,Product,Qty,Price,Currency
+N-1001,2026-09-01, North Store ,Widget,2,40.00,USD
+N-1002,09/02/2026,north store,Gadget,1,"$1,200.00",
+N-1003,03-Sep-2026,NORTH STORE,Widget,3,75.5,usd
+N-1001,2026-09-01,North Store,Widget,2,40,USD
+N-1004,2026-09-04,North Store,Gizmo,1,,USD
+N-1005,2026-09-05,North Store,Widget,1,-20,USD
+N-1006,2099-01-01,North Store,Gadget,2,30,USD
+N-1007,not a date,North Store,Widget,1,10,USD
+N-1008,2026-09-08,North Store,Widget,1,15,XXX
+,2026-09-09,North Store,Widget,1,15,USD
+N-1009,2026-09-10,North Store,Widget,one,15,USD
+N-1010,2026-09-11,North Store,Gadget,4,€ 90.50,

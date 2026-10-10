@@ -1,0 +1,19 @@
+# Copy to config.yaml and pass it with --config config.yaml.
+# Every setting is optional; the values below are the defaults.
+
+target_currency: USD            # all amounts are converted to this currency
+dayfirst: false                 # false: 03/04/2026 = March 4   true: 3 April
+allowed_currencies: [USD, EUR, GBP, INR, JPY, CAD, AUD]
+required_columns: [order_id, date, store, quantity, amount]
+
+# Extra header names your exports use (left side is lower_snake_case).
+column_aliases:
+  customer_branch: store
+
+rates:
+  provider: frankfurter         # "frankfurter" = live API, "fixed" = offline rates below
+  base_url: https://api.frankfurter.dev/v1
+  timeout: 10                   # seconds per request
+  retries: 3                    # extra attempts after the first failure
+  backoff: 1.0                  # seconds, doubled after each retry
+  fixed: {}                     # e.g. {"EUR/USD": 1.10}, used when provider is "fixed"

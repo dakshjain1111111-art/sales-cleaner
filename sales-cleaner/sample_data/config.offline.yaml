@@ -1,0 +1,8 @@
+# Offline demo config: fixed rates, no internet needed.
+# Keys are "FROM/TO" and the value is how many TO units one FROM unit is worth.
+target_currency: USD
+rates:
+  provider: fixed
+  fixed:
+    EUR/USD: 1.10
+    GBP/USD: 1.25
